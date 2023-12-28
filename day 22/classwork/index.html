@@ -1,0 +1,79 @@
+<!--შექმენით ახალი html ფაილი და მასში გამოიყენეთ რამოდენიმე ტიპის სელექტორი გასასტილად. აირჩიეთ რამოდენიმე ელემენტი ერთად და თითოეულ მათგანს მიეცით თავიანთი სტილი, ამის შემდეგ გამოიყენეთ კასკადიანობა მემკვიდრე ელემენტი გამოყავით . ასევე დესედანტის მეშვეობით მშობელი ელემენტით აირჩიეთ u tag და მხოლოდ და მხოლოდ მას მიენიჭოს სტილი.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        p{
+            color: blue;
+        }
+
+        h1, h2, h3{
+            color: red;
+        }
+
+        p b{
+            color:cyan;
+        }
+
+        a{
+            color: gold;
+        }
+
+        div{
+            color: green;
+        }
+
+        p u{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>My name is sandro</h1>
+    <p>welcome to my website. <b>i hope you like my site</b></p>
+    <h2>I study at GOA</h2>
+    <a>join now</a>
+    <div>
+        <p>text with <u>underlines yay</u></p>
+        <h3>hello</h3>
+        <p>text</p>
+    </div>
+</body>
+</html>-->
+
+
+<!--ექმენით 4 პარაგრაფი, 2 პარაგრაფს ქონდეს ერთნაირი კლასი დანარჩენ ორს უნიკალური აიდები და თითოეულ მათგანს სამ სელექტორს მიანიჭეთ სხვადასხვა სტილი-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .my-class{
+            color:brown;
+        }
+        #my-id{
+            color: red;
+        }
+        #second-id{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="my-class">this is a text</p>
+    <p class="my-class">this is text 2</p>
+    <p id="my-id">this text has an id</p>
+    <p id="second-id">this text has another id too</p>
+</body>
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.contact-form {
+    background: #222;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin: 2em auto;
+    border: 2px solid #333;
+    color: #fff;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background: #222;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+p, h1, h2, h3, ol {
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.about-me {
+    background: #222;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 2em auto;
+    border: 2px solid #222;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
+}

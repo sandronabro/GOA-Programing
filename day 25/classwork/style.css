@@ -1,0 +1,9 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(123, 45, 67);
+}
+
+div button{
+    background-color: rgb(87, 123, 210);
+}

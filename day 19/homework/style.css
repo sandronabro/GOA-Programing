@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Roboto:wght@400;500;900&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,300;0,500;0,600;0,900;1,900&family=Roboto:wght@400;500;900&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,300;0,500;0,600;0,900;1,900&family=Roboto:wght@400;500;900&family=Rubik+Glitch&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;800&family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,300;0,500;0,600;0,900;1,900&family=Roboto:wght@400;500;900&family=Rubik+Glitch&family=VT323&display=swap');
+
+
+h1{
+    font-family: "Rubik Glitch";
+    font-style: italic;
+    font-weight: 100;
+    font-size: 60px;
+    color: green;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 92, 0);
+    text-decoration-style: dashed;
+}
+
+p{
+    font-family: "Cinzel";
+    font-weight: 550;
+    font-style:inherit;
+    font-size: 20px;
+    color: green
+}
+
+h2{
+    font-family: "Cinzel";
+    font-weight: 550;
+    font-style:inherit;
+    font-size: 30px;
+    color: green
+}
